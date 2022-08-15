@@ -14,7 +14,7 @@ The first assignment was to create a payroll program.
 
    The program itself calculates the payroll for a population of
    employees in a payroll cycle. The program has a broad scope, and can
-   apply to most businesses opperated in the United States of America.
+   apply to most businesses opporated in the United States of America.
 
   
    The program makes some assumptions, such as:
