@@ -7,7 +7,7 @@
 # elementary concepts in Python, including variables, expresions, 
 # statements, conditional execution, functions, loops & iterations, and 
 # strings. It also demponstrates applied knowledge of recieving and 
-# testing user inputs, modular programing styles, and communication 
+# validating user inputs, modular programing styles, and communication 
 # (comments) with the back-end user or analyst who maintains the code. 
 
 # The program itself calculates the payroll for a population of
@@ -144,10 +144,12 @@ def get_age():
 	
 	while True:
 		try:
-			 age = int(input("What is the employee's age?: "))
+			age = int(input("What is the employee's age?: "))
+		
 		except ValueError:
 			print("Enter a numerical value for the employee's age.")
 			continue
+		
 		else:
 			break
 			
@@ -493,7 +495,7 @@ def get_tax_adjustments(age, frequency):
 					+ 'than ' + "${:0,.2f}".format(max_cc_payperiod) +'  :'))
 			except ValueError:
 				continue
-			if tax_deduction_401k_catchcup > (max_cc_payperiod) \
+			if tax_deduction_401k_catchup > (max_cc_payperiod) \
 			or tax_deduction_401k_catchup <0:
 				continue
 			else:
@@ -517,7 +519,7 @@ def get_tax_adjustments(age, frequency):
 					+ 'than ' + "${:0,.2f}".format(max_cc_payperiod) +'  :'))
 			except ValueError:
 				continue
-			if tax_deduction_403b_catchcup > (max_cc_payperiod) \
+			if tax_deduction_403b_catchup > (max_cc_payperiod) \
 			or tax_deduction_403b_catchup <0:
 				continue
 			else:
