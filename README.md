@@ -1,5 +1,5 @@
 # MS_Fintech_Published_Assignments
-This repositiory was created to publish code written as an assignment throught the MS Fintech Program at UTD
+This repositiory was created to publish code written as an assignment throughout the MS Fintech Program at UTD
 
 The first assignment was to create a payroll program. 
    This program was written as the first weekend assignment for the MS
