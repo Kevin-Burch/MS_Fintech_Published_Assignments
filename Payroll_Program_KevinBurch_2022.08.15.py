@@ -4,15 +4,15 @@
 # Fintech program, for the Fall '22 Cohort. 
 
 # The purpose of this program is to communicate an understanding of some
-# elementary concepts in Python, including variables, expresions, 
+# elementary concepts in Python, including variables, expressions, 
 # statements, conditional execution, functions, loops & iterations, and 
-# strings. It also demponstrates applied knowledge of recieving and 
+# strings. It also demonstrates applied knowledge of recieving and 
 # validating user inputs, modular programing styles, and communication 
 # (comments) with the back-end user or analyst who maintains the code. 
 
 # The program itself calculates the payroll for a population of
 # employees in a payroll cycle. The program has a broad scope, and can
-# apply to most businesses opperated in the United States of America.
+# apply to most businesses operated in the United States of America.
  
 #
 # The program makes some assumptions, such as:
@@ -531,14 +531,14 @@ def get_tax_adjustments(age, frequency):
 		
 	while True:
 		try:
-			tax_deduction_HSA = float(input('HSA Savings: '))
+			tax_deduction_HSA = float(input('Health Savings Account Contribution: '))
 		except ValueError:
 			print('Please enter a numerical value.')
 			continue
 		else:
 			break
 	while tax_deduction_HSA > (max_hsa_payperiod) or tax_deduction_HSA <0:
-		print('The maximum allowable contribution to your 401(k) is '\
+		print('The maximum allowable contribution to your Health Savings Account is '\
 				+ "${:0,.2f}".format(max_hsa_payperiod))
 		try:
 			tax_deduction_HSA = float(input('Please enter an amount less '\
