@@ -15,17 +15,15 @@ The first assignment was to create a payroll program.
    The program itself calculates the payroll for a population of
    employees in a payroll cycle. The program has a broad scope, and can
    apply to most businesses opporated in the United States of America.
-
   
-   The program makes some assumptions, such as:
-      1) this payroll is the only source of W4 income for each employee
-  	  	   *This program does not account for additional W4 employment
-  	  	   *This program does not account for additional withholdings income
-      2) the federal minimum wage is still $7.50/hr
-      3) the program does not consider overtime or holiday pay rates
-      4) hourly employees grossing >=$250K annually will be converted to salary
-      5) utilizes 2022 tax brackets
-   
+   	The program makes some assumptions, such as: 
+   	   1) This payroll is the only source of W4 income for each employee
+               *This program does not account for additional W4 employment
+   	         *This program does not account for additional withholdings income 
+         2) the federal minimum wage is still $7.50/hr;
+         3) the program does not consider overtime or holiday pay rates
+         4) hourly employees grossing >=$250K annually will be converted to salary
+         5) utilizes 2022 tax brackets   
   
    As the program iterates, a individual contributor will manually input 
    the following employee payroll data fields:
